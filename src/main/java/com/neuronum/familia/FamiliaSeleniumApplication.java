@@ -1,17 +1,15 @@
-package com.neuronum.userservice;
+package com.neuronum.familia;
 
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.scheduling.annotation.EnableAsync;
 
-@EnableAsync
 @EnableRabbit
 @SpringBootApplication
 @EntityScan(basePackages = "com.neuronum")
-public class UserServiceApplication {
+public class FamiliaSeleniumApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserServiceApplication.class, args);
+        SpringApplication.run(FamiliaSeleniumApplication.class, args);
     }
 }

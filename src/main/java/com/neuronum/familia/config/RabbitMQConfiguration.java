@@ -1,4 +1,4 @@
-package com.neuronum.userservice.config;
+package com.neuronum.familia.config;
 
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.context.annotation.Bean;
